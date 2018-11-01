@@ -12,4 +12,4 @@ gem 'rspec'
 
 gem 'selenium-webdriver'
 
-gem "cpf_cnpj"
+gem 'cpf_faker'

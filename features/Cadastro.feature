@@ -13,14 +13,14 @@ Cenario: Criação de acesso
         |senha| Spfc@123      |
     E esteja na pagina de cadastro
     Quando preencho as informações do novo usuario com
-        |login |CRC_II                  |
-        |tipo  | Perfil Solicitação     |
-        |nome  | CRC_II                 |
-        |email | crc_2@redetrel.com.br  |
-        |data  | 06/04/1995             |
-        |area  | Funcionario            |
-        |area2 | CRC                    |
-        |senha | Dqm52vnc!              |
+        |login |CRC_II                 |
+        |tipo  |Perfil Solicitação     |
+        |nome  |CRC_II                 |
+        |email |crc_2@redetrel.com.br  |
+        |data  |06/04/1995             |
+        |area  |Funcionario            |
+        |area2 |CRC                    |
+        |senha |Dqm52vnc!              |
         
         
         
