@@ -3,18 +3,23 @@ class CadastroUser
     
 
     def cadastro (login,tipo,nome,email,data,area,area2,senha,cpf)
-        require "cpf_cnpj"
 
         find("input[id=txtLogin]").set login
         #find('#DDLTipoUsuarioId').find(:xpath, 'option[12]').select_option
-        #select(area , from: "#DDLTipoUsuarioId").select_option
-        find("input[id=txtNome]").set email
+        #find('#DDLTipoUsuarioId').find('option', tipo).select_option
+        find("input[id=txtNome]").set nome
         find("input[id=txtEmail]").set email
-        find("input[txbDataNascimento]").set email
-        find("input[id=txbCPF]").set CPF.generate
-        #select(area2 , from: "#DDLArea").select_option
+        find("input[id=txbDataNascimento]").set data
+        find("input[id=txbCPF]").set cpf
+        find('#DDLArea').find('option', text: area).select_option
+        find('#DDLAreaResponsavel').find('option', text: area2).select_option
         find("input[id=txtSenha]").set senha
         find("input[id=txtConfirmaSenha]").set senha
     end
-        
+    
+    def visitaPagina
+    visit '/cadastros/usuarioPesq.aspx'
+    click_button 'Incluir'
+    end
+
 end
