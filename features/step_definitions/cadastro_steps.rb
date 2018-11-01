@@ -1,3 +1,5 @@
+require "cpf_cnpj"
+
 
 Dado("que esteja logado em meu usuario") do |table2|
 
@@ -15,8 +17,12 @@ Dado("que esteja logado em meu usuario") do |table2|
   Quando("preencho as informações do novo usuario com") do |table|
    @cadastro = CadastroUser.new
    @tbcadastro = table.rows_hash
-  # @cadastro.cadastro(@tbCasastro[:login], @tbcadastro[:tipo], @tbcadastro[:nome], @tbcadastro[:email], @tbcadastro[:data], @tbcadastro[:area], @tbcadastro[:area2], @tbcadastro[:senha])
-   
+   @cadastro.cadastro(@tbCasastro[:login], @tbcadastro[:tipo], @tbcadastro[:nome], 
+   @tbcadastro[:email], @tbcadastro[:data], @tbcadastro[:area], @tbcadastro[:area2], @tbcadastro[:senha],CPF.generate(false))
+
+
+
+
   end
   
   Então("vejo a mensagem {string}") do |string|
