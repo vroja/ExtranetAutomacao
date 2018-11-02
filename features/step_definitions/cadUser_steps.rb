@@ -11,7 +11,6 @@ Dado("que esteja logado em meu usuario") do |table2|
   end
   
   Dado("esteja na pagina de cadastro") do
-    visit '/cadastros/usuarioPesq.aspx'
     @cadastro.visitaPagina
   end
   

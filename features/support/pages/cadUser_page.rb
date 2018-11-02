@@ -18,8 +18,7 @@ class CadastroUser
     end
     
     def visitaPagina
-    visit '/cadastros/usuarioPesq.aspx'
-    click_button 'Incluir'
+    visit 'cadastros/UsuarioEdit.aspx'
     end
 
 end

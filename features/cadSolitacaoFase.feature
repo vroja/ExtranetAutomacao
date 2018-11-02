@@ -6,7 +6,7 @@ Funcionalidade: Cadastrar tipo solcitação
     Posso realizar cadastro de fase solcitação
     Para que eu possa dar acesso a uma fase de solicitação
 
-@smoke
+
 Cenario: Cadastro de Solicitação
 
     Dado que esteja logado em meu usuario
