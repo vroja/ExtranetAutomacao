@@ -11,7 +11,6 @@ class CadTipoSolcitacao
         find('#DDLUsuario').find('option', text: usuario).select_option
         choose (tipo)
         click_button 'Confirmar'
-        sleep 2
     end
 
 end

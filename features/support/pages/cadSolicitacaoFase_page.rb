@@ -13,7 +13,6 @@ class CadSolicitacaoFase
         find('#DDLUsuario').find('option', text: usuario).select_option
         choose ('Não')
         #click_button 'Confirmar'
-        sleep 5
     end
 
 end
