@@ -11,7 +11,7 @@ Cenario: Cadastro de Solicitação
 
     Dado que esteja logado em meu usuario
         |login| epgvictortavoni|
-        |senha| Dqm52vnc       |
+        |senha| Spfc@123       |
     E esteja na pagina de tipo solcitação
     Quando preencho as informações da solicitação e seleciono o usuario
         |solicitacao | 1428                      |

@@ -10,7 +10,7 @@ Cenario: Criação de acesso
 
     Dado que esteja logado em meu usuario
         |login| epgvictortavoni|
-        |senha| Dqm52vnc      |
+        |senha| Spfc@123      |
     E esteja na pagina de cadastro
     Quando preencho as informações do novo usuario com
         |login |CRC_II                 |

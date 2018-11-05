@@ -6,12 +6,12 @@ Funcionalidade: Cadastrar de perfil
     Posso realizar cadastro de um perfil
     Para que eu possa atribuir ao um usuario posteriormente
 
-@smoke
+
 Cenario: Cadastro de perfil
 
     Dado que esteja logado em meu usuario
         |login| epgvictortavoni|
-        |senha| Dqm52vnc       |
+        |senha| Spfc@123       |
     E esteja na pagina de cadastro de perfil
     Quando preencho as informações do perfil e cliclo em incluir
         |nome      | CRC_II                           |
@@ -19,3 +19,22 @@ Cenario: Cadastro de perfil
         |area      | CRC                              |
         
     Então vejo a mensagem "Inserido com Sucesso"
+
+
+    Esquema do Cenário: Tentativa de Cadastro
+
+    Dado que esteja logado em meu usuario
+        |login| epgvictortavoni|
+        |senha| Spfc@123       |
+    E esteja na pagina de cadastro de perfil
+    Quando preencho as informações do perfil e cliclo em incluir
+        |nome      | <nome>      |
+        |descricao | <descricao> |
+        |area      | <area>      |
+
+
+        Exemplos:
+
+        | nome           | descricao                         |area |
+        | CRC_II_testeG  | Perfil somente para supervisores  | CRC |
+        | CRC_III_testeG | Perfil somente para coordenadores | CRC |

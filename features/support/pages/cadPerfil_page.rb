@@ -10,7 +10,7 @@ class CadPerfil
         find("input[id=TXBNomePerfil]").set nome
         find("textarea[name=TXBDescricao]").set descricao
         find('#DDLAreaId').find('option', text: area).select_option
-         #click_button 'Confirmar'
+         click_button 'Confirmar'
     end
 
 end
