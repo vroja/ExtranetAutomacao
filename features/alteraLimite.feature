@@ -28,7 +28,7 @@ Cenario: Cadastro de perfil
     E esteja na pagina alterar limite de cofre
     Quando faço a busca do agente e clico em altera e preencho com o novo valor do limite
         |agente | <agente> |
-        |limite | <agente> |
+        |limite | <limite> |
 
     Exemplos:
     | agente  | limite |
