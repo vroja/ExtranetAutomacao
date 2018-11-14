@@ -20,7 +20,7 @@ Cenario: Cadastro de perfil
         
     Então vejo a mensagem "Inserido com Sucesso"
 
-
+@perfil
     Esquema do Cenário: Tentativa de Cadastro
 
     Dado que esteja logado em meu usuario
@@ -35,6 +35,6 @@ Cenario: Cadastro de perfil
 
         Exemplos:
 
-        | nome           | descricao                         |area |
-        | CRC_II_testeG  | Perfil somente para supervisores  | CRC |
-        | CRC_III_testeG | Perfil somente para coordenadores | CRC |
+        | nome         | descricao                         |area |
+        | CRC_II_teste | Perfil somente para supervisores  | CRC |
+        | CRC_III_teste| Perfil somente para coordenadores | CRC |
