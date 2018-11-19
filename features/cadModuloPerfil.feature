@@ -11,11 +11,11 @@ Cenario: Inserir um modulo no perfil
 
     Dado que esteja logado em meu usuario
         |login| epgvictortavoni|
-        |senha| Spfc@123       |
+        |senha| Dqm52vnc       |
     E esteja na pagina de cadastro de Perfil x Modulo
     Quando preencho as informações do e clico em incluir
         |sistema | Publicação    |
-        |moudlo  | Area 1 Teste     |
+        |moudulo  | Area 1 Teste     |
         |area    | CRC      |
         |perfil  | Equipe Bandeira |
         |tipo    | Leitura         |
@@ -27,11 +27,11 @@ Esquema do Cenário:
 
 Dado que esteja logado em meu usuario
         |login| epgvictortavoni|
-        |senha| Spfc@123       |
+        |senha| Dqm52vnc       |
     E esteja na pagina de cadastro de Perfil x Modulo
     Quando preencho as informações do e clico em incluir
         |sistema | <sistema> |
-        |modulo | <modulo> |
+        |modulo  | <modulo>  |
         |area    | <area>    |
         |perfil  | <perfil>  |
         |tipo    | <tipo>    |

@@ -11,7 +11,7 @@ Cenario: Cadastro de perfil
 
     Dado que esteja logado em meu usuario
         |login| epgvictortavoni|
-        |senha| Spfc@123       |
+        |senha| Dqm52vnc       |
     E esteja na pagina alterar limite de cofre
     Quando faço a busca do agente e clico em altera e preencho com o novo valor do limite
         |agente | 700337|
@@ -24,7 +24,7 @@ Cenario: Cadastro de perfil
 
     Dado que esteja logado em meu usuario
         |login| epgvictortavoni|
-        |senha| Spfc@123       |
+        |senha| Dqm52vnc       |
     E esteja na pagina alterar limite de cofre
     Quando faço a busca do agente e clico em altera e preencho com o novo valor do limite
         |agente | <agente> |
