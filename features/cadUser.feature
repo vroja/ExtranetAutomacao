@@ -25,3 +25,19 @@ Cenario: Criação de acesso
         
         
     Então vejo a mensagem "Usuario criado"
+
+    Esquema do Cenario: Criação de usuario perfil
+
+    Dado que esteja logado em meu usuario
+        |login| epgvictortavoni|
+        |senha| Dqm52vnc      |
+    E esteja na pagina de cadastro
+    Quando preencho as informações do novo usuario com
+        |login |<login>                 |
+        |tipo  |<perfil>                |
+        |nome  |CRC_II                 |
+        |email |crc_2@redetrel.com.br  |
+        |data  |06/04/1995             |
+        |area  |Funcionario            |
+        |area2 |CRC                    |
+        |senha |Dqm52vnc!              |
