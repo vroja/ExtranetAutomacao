@@ -16,7 +16,7 @@ Cenario: Cadastro de Solicitação
     Quando preencho as informações da solicitação e seleciono o usuario
         |solicitacao | 1428                      |
         |usuario     | EPGVICTORTAVONI           |
-        |tipo        | #RBLTipoAcompanhamentoId_2 |
+        |tipo        | "#RBLTipoAcompanhamentoId_2" |
         
     Então vejo a mensagem "Inserido com Sucesso"
 
