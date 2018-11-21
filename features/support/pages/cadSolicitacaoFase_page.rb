@@ -12,7 +12,7 @@ class CadSolicitacaoFase
         find('#DDLFase').find('option', text: fase).select_option
         find('#DDLUsuario').find('option', text: usuario).select_option
         choose ('Não')
-        #click_button 'Confirmar'
+        click_button 'Confirmar'
     end
 
 end

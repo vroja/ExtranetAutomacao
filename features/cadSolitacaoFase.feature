@@ -34,42 +34,42 @@ Cenario: Cadastro de Solicitação
         Exemplos:
 
 |solicitacao|fase     |usuario          |
-|3078       |Conclusao|RDTGABRIELAVIEIRA|
-|3078       |Conclusao|RDTVERARIBEIRO|
-|3078       |Conclusao|EPGGLEICE|
-|3078       |Conclusao|EPGADRIELYPEREIRA|
-|3078       |Conclusao|EPGBARBARAPEREIRA|
-|3078       |Conclusao|EPGCARLOSSOARES|
-|3078       |Conclusao|EPGELAINE|
-|3078       |Conclusao|EPGGLEICE|
-|3078       |Conclusao|EPGGRAZIELYC|
-|3078       |Conclusao|EPGJOCIMARAFRANCA|
-|3078       |Conclusao|EPGLUCELIA|
-|3078       |Conclusao|EPGMARCIAC|
-|3078       |Conclusao|EPGNEUZAT|
-|3078       |Conclusao|EPGPRISCILAFERNANDES|
-|3078       |Conclusao|EPGSAMUELCOSTA|
-|3078       |Conclusao|EPGTATIELLELIMA|
-|3078       |Conclusao|EPGVANESSAMAIA|
-|3078       |Conclusao|EPGCESARSILVA |
-|3078       |Conclusao|RDTJOSIANELIMA |
-|3078       |Conclusao|RDTADRIANOFARIA |
-|3078       |Conclusao|RDTVANIACARDOSO|
-|3078       |Conclusao|EPGCLAUDIARODRIGUES |
-|3078       |Conclusao|RDTNATASHASILVA|
-|3078       |Conclusao|RDTJULIANAPENTEADO|
-|3078       |Conclusao|RDTTUANNYCRISTINO|
-|3078       |Conclusao|RDTRAIANYDAMAS|
-|3078       |Conclusao|RDTALYNEMONTEIRO|
-|3078       |Conclusao|RDTANDREARAYMUNDO|
-|3078       |Conclusao|RDTGABRIELAVIEIRA|
-|3078       |Conclusao|EPGVANESSAG|
-|3078       |Conclusao|RDTVERARIBEIRO|
-|3078       |Conclusao|RDTELIANASANTOS|
-|3078       |Conclusao|EPGGRAZIELE|
-|3078       |Conclusao|EPGGLEICE|
-|3078       |Conclusao|RDTPATRICIAOLIVEIRA|
-|3078       |Conclusao|RDTNATALYMARCONDES |
-|3078       |Conclusao|EPGVIVIANE|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTGABRIELAVIEIRA|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTVERARIBEIRO|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGGLEICE|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGADRIELYPEREIRA|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGBARBARAPEREIRA|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGCARLOSSOARES|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGELAINE|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGGLEICE|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGGRAZIELYC|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGJOCIMARAFRANCA|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGLUCELIA|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGMARCIAC|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGNEUZAT|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGPRISCILAFERNANDES|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGSAMUELCOSTA|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGTATIELLELIMA|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGVANESSAMAIA|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGCESARSILVA |
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTJOSIANELIMA |
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTADRIANOFARIA |
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTVANIACARDOSO|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGCLAUDIARODRIGUES |
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTNATASHASILVA|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTJULIANAPENTEADO|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTTUANNYCRISTINO|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTRAIANYDAMAS|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTALYNEMONTEIRO|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTANDREARAYMUNDO|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTGABRIELAVIEIRA|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGVANESSAG|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTVERARIBEIRO|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTELIANASANTOS|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGGRAZIELE|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGGLEICE|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTPATRICIAOLIVEIRA|
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|RDTNATALYMARCONDES |
+|5339       |Conclusao - UF - [ESTADO] - [AGENTE]|EPGVIVIANE|
 
        

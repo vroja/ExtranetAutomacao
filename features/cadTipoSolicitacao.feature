@@ -6,7 +6,7 @@ Funcionalidade: Cadastrar tipo solcitação
     Posso realizar cadastro de tipo solcitação
     Para que eu possa dar acesso abertura e acompanhamento de solcitação
 
-
+@tiposolicitacao
 Cenario: Cadastro de Solicitação
 
     Dado que esteja logado em meu usuario
@@ -16,11 +16,11 @@ Cenario: Cadastro de Solicitação
     Quando preencho as informações da solicitação e seleciono o usuario
         |solicitacao | 1428                      |
         |usuario     | EPGVICTORTAVONI           |
-        |tipo        | "#RBLTipoAcompanhamentoId_2 |
+        |tipo        | Acompanhamento e Abertura |
         
     Então vejo a mensagem "Inserido com Sucesso"
 
-@tiposolicitacao
+
     Esquema do Cenario: Cadastro de solicitacao
     
     Dado que esteja logado em meu usuario
